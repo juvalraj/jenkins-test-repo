@@ -50,5 +50,11 @@ pipeline {
                  echo 'Tools: AWS CLI / Ansible'
             }
         }
+
+        stage('Testing Commit Changes') {
+            steps {
+                echo 'Testing...'
+            }
+        }
     }
 }
